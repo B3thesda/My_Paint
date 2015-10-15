@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my_pain</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<canvas id="sec" width="800" height="600">
+		
+	</canvas>
+	<select id="outil">
+		<option value="trais">trais</option>
+		<option value="pinceaux">pinceaux</option>
+		<option value="rectangle">rectangle</option>
+		<option value="rectangleP">rectangle plein</option>
+		<option value="circle">circle</option>
+		<option value="circle full">circle full</option>
+		<option value="gomme">gomme</option>
+		<option value="keur keur">keur keur</option>
+		<option value="null">null</option>
+	</select>
+	<select id="width">
+		<option value="1">1 px</option>
+		<option value="2">2 px</option>
+		<option value="5">5 px</option>
+		<option value="10">10 px</option>
+		<option value="15">15 px</option>
+		<option value="20">20 px</option>
+	</select>
+	<label>shadow</label>
+	<input type="checkbox" id="shadow">
+	<label>shadow path</label>
+	<select id="shadowPath">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="5">5</option>
+		<option value="10">10</option>
+		<option value="15">15</option>
+		<option value="20">20</option>
+	</select>
+	<input type="color" id="color" />
+	<button id="clear">CLEAR</button>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="my_pain.js"></script>
+</body>
+</html>
